@@ -29,28 +29,28 @@ The RequestHeader specifies metadata about the request.
 ###Response
 The GetAllProductOfferings JSON response has this format:
 
-{
-  "ResponseHeader": {
-    "Status": "success",
-    "StatusList": []
-  },
-  "GetAllProductOfferingsResult": {
-    "ProductOfferings": [
-      {
-        "ProductOfferingInstanceId": int,
-        "ApplicationWebsite": "",
-        "ProductOfferingType": "",
-        "Name": "",
-        "DownloadLimit": int,
-        "DownloadLimitDuration": "",
-        "Status": "",
-        "ExpirationUtc": "",
-        "DownloadsRemaining": int,
-        "DownloadLimitResetUtc": "" 
-      }
-    ]
-  }
-}
+	{
+	  "ResponseHeader": {
+	    "Status": "success",
+	    "StatusList": []
+	  },
+	  "GetAllProductOfferingsResult": {
+	    "ProductOfferings": [
+	      {
+	        "ProductOfferingInstanceId": int,
+	        "ApplicationWebsite": "",
+	        "ProductOfferingType": "",
+	        "Name": "",
+	        "DownloadLimit": int,
+	        "DownloadLimitDuration": "",
+	        "Status": "",
+	        "ExpirationUtc": "",
+	        "DownloadsRemaining": int,
+	        "DownloadLimitResetUtc": "" 
+	      }
+	    ]
+	  }
+	}
 
 ####ResponseHeader Fields
 The ResponseHeader contains metadata about the operation execution and response.
